@@ -1,0 +1,6 @@
+/target
+/renders
+/fits
+# The reference stabs (not redistributed; tools read them from here)
+/examples/*.wav
+/st1-ref

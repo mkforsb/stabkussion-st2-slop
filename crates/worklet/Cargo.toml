@@ -1,0 +1,12 @@
+[package]
+name = "stabkussion-worklet"
+description = "Stabkussion DSP compiled to a dependency-free wasm module for an AudioWorkletProcessor"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+stabkussion-dsp = { path = "../dsp" }

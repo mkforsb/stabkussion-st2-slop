@@ -1,0 +1,8 @@
+[package]
+name = "stabkussion-dsp"
+description = "DSP engine for Stabkussion ST-2, a dual-channel techno stab synthesizer"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]

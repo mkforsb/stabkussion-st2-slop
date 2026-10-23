@@ -1,0 +1,8 @@
+[application]
+name = "stabkussion"
+
+[web.app]
+title = "Stabkussion ST-2 · Cross-Modulating Techno Stab Synthesizer"
+
+[web.watcher]
+watch_path = ["src", "assets", "../dsp/src", "../worklet/src"]
